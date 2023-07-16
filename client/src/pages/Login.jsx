@@ -53,7 +53,7 @@ const Login = () => {
         <section>
             <Container>
                 <Row>
-                    <Col xs="8" >
+                    <Col xs="12" >
                         <div className="login__container d-flex justify-content-between">
                             <div className="login__img">
                                 <img src={loginImg} alt="" />
@@ -75,7 +75,8 @@ const Login = () => {
                                     <Button type="submit" className="btn secondary__btn auth__btn">Login</Button>
                                 </Form>
                                 <p>Don't have an account?
-                                    <Link to='/register'>Create</Link>
+                                    <Link to='/register'>
+                                        <br />Create an account</Link>
                                 </p>
                             </div>
                         </div>

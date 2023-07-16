@@ -2,6 +2,9 @@ import React from 'react'
 import CommonSection from '../Shared/CommonSection'
 import { Container, Col, Row } from 'reactstrap';
 import Newsletter from '../Shared/Newsletter';
+import '../styles/about.css'
+
+import profilePicOne from "../assets/images/ava-1.jpg"
 
 const About = () => {
     return (
@@ -11,13 +14,55 @@ const About = () => {
             <section>
                 <Container>
                     <Row>
-                        <Col md="12">
-                            <h3 className='text-center'>Meet Our Team</h3>
+                        <Col lg="12">
+                            <div className='top__container'>
+                                <div className='text-center'>
+                                    <h1>Our Mission</h1>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col lg="6">
+                            <div className='about__container'>
+                                <div className='about__text'>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg="6">
+                            <div className='about__container'>
+                                <div className='about__text'>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
 
+                    <Row>
+                        <Col>
+                            <div className='card_list'>
+                                <h2>Meet Our Elegant Staffs</h2>
+                                <div class="card">
+                                    <img src={profilePicOne} alt="John" />
+                                    <h2>John Doe</h2>
+                                    <p class="title">CEO & Founder, Example</p>
+                                    <p>Harvard University</p>
+                                    <a href="#"><i className="fa fa-dribbble"></i></a>
+                                    <a href="#"><i className="fa fa-twitter"></i></a>
+                                    <a href="#"><i className="fa fa-linkedin"></i></a>
+                                    <a href="#"><i className="fa fa-facebook"></i></a>
+                                    <p><button>Contact</button></p>
+                                </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section >
             <Newsletter />
         </>
     )
