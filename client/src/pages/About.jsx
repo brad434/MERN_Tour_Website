@@ -5,6 +5,12 @@ import Newsletter from '../Shared/Newsletter';
 import '../styles/about.css'
 
 import profilePicOne from "../assets/images/ava-1.jpg"
+import world from "../assets/images/world.png"
+import tour1 from "../assets/images/tour-img01.jpg"
+import tour2 from "../assets/images/tour-img02.jpg"
+import tour3 from "../assets/images/tour-img03.jpg"
+import tour4 from "../assets/images/tour-img04.jpg"
+import tour5 from "../assets/images/tour-img05.jpg"
 
 const About = () => {
     return (
@@ -55,7 +61,7 @@ const About = () => {
                     <Row>
                         <Col lg="12">
                             <div className='card_list d-flex justify-content-around flex-wrap'>
-                                <div className="card">
+                                <div className="card mb-5">
                                     <img src={profilePicOne} alt="John" />
                                     <h2>John Doe</h2>
                                     <p class="title">CEO & Founder, Example</p>
@@ -66,7 +72,7 @@ const About = () => {
                                     <a href="#"><i className="fa fa-facebook"></i></a>
                                     <p><button>Contact</button></p>
                                 </div>
-                                <div class="card">
+                                <div class="card mb-5">
                                     <img src={profilePicOne} alt="John" />
                                     <h2>John Doe</h2>
                                     <p class="title">CEO & Founder, Example</p>
@@ -77,7 +83,7 @@ const About = () => {
                                     <a href="#"><i className="fa fa-facebook"></i></a>
                                     <p><button>Contact</button></p>
                                 </div>
-                                <div class="card">
+                                <div class="card mb-5">
                                     <img src={profilePicOne} alt="John" />
                                     <h2>John Doe</h2>
                                     <p class="title">CEO & Founder, Example</p>
@@ -88,7 +94,7 @@ const About = () => {
                                     <a href="#"><i className="fa fa-facebook"></i></a>
                                     <p><button>Contact</button></p>
                                 </div>
-                                <div class="card">
+                                <div class="card mb-5">
                                     <img src={profilePicOne} alt="John" />
                                     <h2>John Doe</h2>
                                     <p class="title">CEO & Founder, Example</p>
@@ -99,7 +105,7 @@ const About = () => {
                                     <a href="#"><i className="fa fa-facebook"></i></a>
                                     <p><button>Contact</button></p>
                                 </div>
-                                <div class="card">
+                                <div class="card mb-5">
                                     <img src={profilePicOne} alt="John" />
                                     <h2>John Doe</h2>
                                     <p class="title">CEO & Founder, Example</p>
@@ -110,7 +116,7 @@ const About = () => {
                                     <a href="#"><i className="fa fa-facebook"></i></a>
                                     <p><button>Contact</button></p>
                                 </div>
-                                <div class="card">
+                                <div class="card mb-5">
                                     <img src={profilePicOne} alt="John" />
                                     <h2>John Doe</h2>
                                     <p class="title">CEO & Founder, Example</p>
@@ -126,6 +132,32 @@ const About = () => {
                     </Row>
                 </Container>
             </section >
+
+            <section>
+                <Container>
+                    <Col>
+                        <div className='title text-center mt-5 mb-5'>
+                            <h2>Our Sponsors</h2>
+                        </div>
+                        <div className='logos'>
+                            <div className="logos_slide">
+                                <img src={tour1} />
+                                <img src={tour2} />
+                                <img src={tour3} />
+                                <img src={tour4} />
+                                <img src={tour5} />
+                            </div>
+                            <div className="logos_slide">
+                                <img src={tour1} />
+                                <img src={tour2} />
+                                <img src={tour3} />
+                                <img src={tour4} />
+                                <img src={tour5} />
+                            </div>
+                        </div>
+                    </Col>
+                </Container>
+            </section>
             <Newsletter />
         </>
     )
