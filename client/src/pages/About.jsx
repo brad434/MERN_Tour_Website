@@ -44,9 +44,40 @@ const About = () => {
                     </Row>
 
                     <Row>
-                        <Col>
+                        <Col lg="12">
                             <div className='card_list'>
-                                <h2>Meet Our Elegant Staffs</h2>
+                                <div className='title text-center mb-5'>
+                                    <h2>Meet Our Elegant Staffs</h2>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col lg="12">
+                            <div className='card_list d-flex align-item-center'>
+                                <div className="card">
+                                    <img src={profilePicOne} alt="John" />
+                                    <h2>John Doe</h2>
+                                    <p class="title">CEO & Founder, Example</p>
+                                    <p>Harvard University</p>
+                                    <a href="#"><i className="fa fa-dribbble"></i></a>
+                                    <a href="#"><i className="fa fa-twitter"></i></a>
+                                    <a href="#"><i className="fa fa-linkedin"></i></a>
+                                    <a href="#"><i className="fa fa-facebook"></i></a>
+                                    <p><button>Contact</button></p>
+                                </div>
+                                <div class="card">
+                                    <img src={profilePicOne} alt="John" />
+                                    <h2>John Doe</h2>
+                                    <p class="title">CEO & Founder, Example</p>
+                                    <p>Harvard University</p>
+                                    <a href="#"><i className="fa fa-dribbble"></i></a>
+                                    <a href="#"><i className="fa fa-twitter"></i></a>
+                                    <a href="#"><i className="fa fa-linkedin"></i></a>
+                                    <a href="#"><i className="fa fa-facebook"></i></a>
+                                    <p><button>Contact</button></p>
+                                </div>
                                 <div class="card">
                                     <img src={profilePicOne} alt="John" />
                                     <h2>John Doe</h2>
