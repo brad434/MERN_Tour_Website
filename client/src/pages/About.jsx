@@ -16,7 +16,7 @@ const About = () => {
     return (
         <>
             <CommonSection title={'About Us'} />
-
+            {/* ------------------ MISSION STATEMENT ------------------------------- */}
             <section>
                 <Container>
                     <Row>
@@ -48,10 +48,9 @@ const About = () => {
                             </div>
                         </Col>
                     </Row>
-
+                    {/* ---------------- STAFF SECTION -------------------------------- */}
                     <Row>
                         <Col lg="12">
-
                             <div className='title text-center mt-5 mb-5'>
                                 <h2>Our Elite Staffs</h2>
                             </div>
@@ -132,7 +131,7 @@ const About = () => {
                     </Row>
                 </Container>
             </section >
-
+            {/* ------------------------- SPONSOR SECTION ----------------------------------- */}
             <section>
                 <Container>
                     <Col>
@@ -158,6 +157,7 @@ const About = () => {
                     </Col>
                 </Container>
             </section>
+            {/* ------------------------------ NEWSLETTER SECTION ------------------------- */}
             <Newsletter />
         </>
     )
